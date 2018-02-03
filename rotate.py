@@ -8,6 +8,7 @@ def sig_handler(signum, fram):
 signal.signal(signal.SIGINT, sig_handler);
 signal.signal(signal.SIGTSTP, sig_handler);
 while True:
-    p = subprocess.Popen(["xrandr", "-o", "left"])
-    time.sleep(15)
-
+    subprocess.Popen(["xrandr", "-o", "left"])
+    time.sleep(5) 
+    subprocess.Popen(["xrandr", "-o", "right"])
+    time.sleep(5) 
