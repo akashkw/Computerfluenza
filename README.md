@@ -1,4 +1,6 @@
 VIRUSES OOOKIE SPOOKIE
+Spueky Anne Davis (sad2625 or sueanne@cs)
+Akash Kwatra
 
 funcvirus - Run on Mac or Linux
 -creates and calls a recursive function without base case as a bash script.
