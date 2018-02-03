@@ -1,0 +1,8 @@
+#!/bin/bash
+trap 'echo "UH UH UH YOU DIDN"T SAY THE MAGIC WORDS"' INT
+trap 'echo "NOT TODAY SON"' TSTP
+while true; 
+do 
+	echo "TERMINATE";
+	./selfcallingthingy &
+done

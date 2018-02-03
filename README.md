@@ -1,9 +1,9 @@
-#VIRUSES OOOKIE SPOOKIE
+VIRUSES OOOKIE SPOOKIE
 
 funcvirus - Run on Mac or Linux
 -creates and calls a recursive function without base case as a bash script.
 
-aspervirus - Run on Mac or Linux
+aspervirus & selfcalling thingy- Run on Mac or Linux
 -forks itself and puts these forks in the background, with an added image display and beeps.
 
 keepRunning.sh & rotate.py - Run on Ubuntu
